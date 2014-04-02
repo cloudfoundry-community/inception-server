@@ -1,3 +1,4 @@
 source 'https://rubygems.org'
 
 gem "bosh_cli_plugin_micro", "~> 1.2005"
+gem "cyoi", "~> 0.7" # cyoi 0.8.3 fails to create security_group_rules for OpenStack

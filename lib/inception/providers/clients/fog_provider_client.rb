@@ -195,7 +195,7 @@ class Inception::Providers::Clients::FogProviderClient
 
       attach_public_ip_address(server, public_ip_address)
 
-      server.setup(keys: [private_key_path])
+      server.setup(keys: [private_key_path], timeout: 300)
     end
     server
   end
