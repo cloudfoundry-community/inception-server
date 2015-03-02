@@ -18,9 +18,11 @@ cd inception-server
 bundle
 ```
 
+### Warning: RubyGem not working
+
 *Wherever you see `inception` below, use `bundle exec bin/inception` until the rubygem is fixed.*
 
-The tool WILL be distributed as a RubyGem, but its currently not working in this form sadly.
+**The tool WILL be distributed as a RubyGem, but its currently not working in this form sadly.**
 
 ```
 $ gem install inception-server
